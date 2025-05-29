@@ -1,0 +1,25 @@
+{
+  "name": "ezra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.3.4",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.3.4",
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@storybook/vue3-vite": "^9.0.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
