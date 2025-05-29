@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.temp/
+.cache/
+
+# Vite
+.vite/
+*.local
+
+# VS Code
+.vscode/
+
+# Storybook
+.storybook-out/
+storybook-static/
+out/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Mac/Linux
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Coverage (if you add testing)
+coverage/
+
+# Optional build artifacts
+*.tgz
+*.gz
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor backups
+*.swp
+*.swo
+*.bak
