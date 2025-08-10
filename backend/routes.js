@@ -89,10 +89,53 @@ router.delete('/locations/:id', (req, res) => {
 });
 // ...other CRUD endpoints for location
 
-// Group CRUD
+/**
+ * @swagger
+ * tags:
+ *   name: Organization
+ *   description: Organization management
+ */
+
+/**
+ * @swagger
+ * /organizations:
+ *   get:
+ *     summary: Get all organizations
+ *     tags: [Organization]
+ *     responses:
+ *       200:
+ *         description: List of organizations
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Organization'
+ */
 router.get('/groups', (req, res) => {
   res.json(readData('groups.json'));
 });
+
+/**
+ * @swagger
+ * /organizations:
+ *   post:
+ *     summary: Create a new organization
+ *     tags: [Organization]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/Organization'
+ *     responses:
+ *       201:
+ *         description: Organization created
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Organization'
+ */
 router.post('/groups', (req, res) => {
   const groups = readData('groups.json');
   const group = { ...req.body, id: uuidv4(), createdOn: new Date(), updatedOn: new Date() };
@@ -100,12 +143,66 @@ router.post('/groups', (req, res) => {
   writeData('groups.json', groups);
   res.status(201).json(group);
 });
+
+/**
+ * @swagger
+ * /organizations/{id}:
+ *   get:
+ *     summary: Get an organization by ID
+ *     tags: [Organization]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Organization ID
+ *     responses:
+ *       200:
+ *         description: Organization found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Organization'
+ *       404:
+ *         description: Organization not found
+ */
 // Get single group
 router.get('/groups/:id', (req, res) => {
   const groups = readData('groups.json');
   const group = groups.find(g => g.id === req.params.id);
   if (!group) return res.status(404).json({ error: 'Not found' });
   res.json(group);
+
+/**
+ * @swagger
+ * /organizations/{id}:
+ *   put:
+ *     summary: Update an organization
+ *     tags: [Organization]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Organization ID
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/Organization'
+ *     responses:
+ *       200:
+ *         description: Organization updated
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Organization'
+ *       404:
+ *         description: Organization not found
+ */
 });
 // Update group
 router.put('/groups/:id', (req, res) => {
@@ -114,6 +211,30 @@ router.put('/groups/:id', (req, res) => {
   if (idx === -1) return res.status(404).json({ error: 'Not found' });
   groups[idx] = { ...groups[idx], ...req.body, updatedOn: new Date() };
   writeData('groups.json', groups);
+
+/**
+ * @swagger
+ * /organizations/{id}:
+ *   delete:
+ *     summary: Delete an organization
+ *     tags: [Organization]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Organization ID
+ *     responses:
+ *       200:
+ *         description: Organization deleted
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Organization'
+ *       404:
+ *         description: Organization not found
+ */
   res.json(groups[idx]);
 });
 // Delete group
@@ -123,6 +244,27 @@ router.delete('/groups/:id', (req, res) => {
   if (idx === -1) return res.status(404).json({ error: 'Not found' });
   const deleted = groups[idx];
   groups.splice(idx, 1);
+
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Organization:
+ *       type: object
+ *       properties:
+ *         id:
+ *           type: string
+ *         name:
+ *           type: string
+ *         createdBy:
+ *           type: string
+ *         createdOn:
+ *           type: string
+ *         updatedBy:
+ *           type: string
+ *         updatedOn:
+ *           type: string
+ */
   writeData('groups.json', groups);
   res.json(deleted);
 });
