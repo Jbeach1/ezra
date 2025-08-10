@@ -1,0 +1,10 @@
+[
+  { "id": "grp-1", "organizationId": "org-1", "locationId": "loc-1", "name": "Young Adults", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-2", "organizationId": "org-1", "locationId": "loc-1", "name": "Men's Group", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-3", "organizationId": "org-1", "locationId": "loc-2", "name": "Women's Group", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-4", "organizationId": "org-2", "locationId": "loc-3", "name": "Freshmen", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-5", "organizationId": "org-2", "locationId": "loc-3", "name": "Sophomores", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-6", "organizationId": "org-2", "locationId": "loc-4", "name": "Juniors", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-7", "organizationId": "org-3", "locationId": "loc-5", "name": "Community Outreach", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "grp-8", "organizationId": "org-3", "locationId": "loc-5", "name": "Bible Study", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" }
+]

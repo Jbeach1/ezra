@@ -1,0 +1,26 @@
+[
+  {
+    "id": "org-1",
+    "name": "Grace Church",
+    "createdBy": "admin",
+    "createdOn": "2025-08-10T00:00:00Z",
+    "updatedBy": "admin",
+    "updatedOn": "2025-08-10T00:00:00Z"
+  },
+  {
+    "id": "org-2",
+    "name": "Summit College Ministry",
+    "createdBy": "admin",
+    "createdOn": "2025-08-10T00:00:00Z",
+    "updatedBy": "admin",
+    "updatedOn": "2025-08-10T00:00:00Z"
+  },
+  {
+    "id": "org-3",
+    "name": "Faith Community",
+    "createdBy": "admin",
+    "createdOn": "2025-08-10T00:00:00Z",
+    "updatedBy": "admin",
+    "updatedOn": "2025-08-10T00:00:00Z"
+  }
+]

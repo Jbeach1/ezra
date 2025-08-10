@@ -1,0 +1,7 @@
+[
+  { "id": "loc-1", "organizationId": "org-1", "name": "Downtown Campus", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "loc-2", "organizationId": "org-1", "name": "Westside Campus", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "loc-3", "organizationId": "org-2", "name": "Main Hall", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "loc-4", "organizationId": "org-2", "name": "East Wing", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "loc-5", "organizationId": "org-3", "name": "North Campus", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" }
+]

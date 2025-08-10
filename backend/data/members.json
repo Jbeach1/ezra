@@ -1,0 +1,17 @@
+[
+  { "id": "mem-1", "organizationId": "org-1", "locationId": "loc-1", "groupId": "grp-1", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-2", "organizationId": "org-1", "locationId": "loc-1", "groupId": "grp-1", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-3", "organizationId": "org-1", "locationId": "loc-1", "groupId": "grp-1", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-4", "organizationId": "org-1", "locationId": "loc-1", "groupId": "grp-1", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-5", "organizationId": "org-1", "locationId": "loc-1", "groupId": "grp-2", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-6", "organizationId": "org-1", "locationId": "loc-1", "groupId": "grp-2", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-7", "organizationId": "org-1", "locationId": "loc-2", "groupId": "grp-3", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-8", "organizationId": "org-2", "locationId": "loc-3", "groupId": "grp-4", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-9", "organizationId": "org-2", "locationId": "loc-3", "groupId": "grp-4", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-10", "organizationId": "org-2", "locationId": "loc-3", "groupId": "grp-5", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-11", "organizationId": "org-2", "locationId": "loc-4", "groupId": "grp-6", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-12", "organizationId": "org-3", "locationId": "loc-5", "groupId": "grp-7", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-13", "organizationId": "org-3", "locationId": "loc-5", "groupId": "grp-7", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-14", "organizationId": "org-3", "locationId": "loc-5", "groupId": "grp-8", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" },
+  { "id": "mem-15", "organizationId": "org-3", "locationId": "loc-5", "groupId": "grp-8", "createdBy": "admin", "createdOn": "2025-08-10T00:00:00Z", "updatedBy": "admin", "updatedOn": "2025-08-10T00:00:00Z" }
+]

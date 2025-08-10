@@ -41,3 +41,8 @@ This repository contains two projects:
 ## Notes
 - Make sure Node.js and npm are installed.
 - You can run both servers simultaneously in separate terminals.
+
+## Backend notes
+
+Express is temporary, eventually we need a DB, for now to demo its using files. 
+To reset the data call `node resetData.js` to get a clean data set. 
